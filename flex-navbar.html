@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    .container{
+        display: flex;
+        background-color: gray;
+        padding: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .right-bar{
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+.right-bar >div {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+@media all and (max-width :500px ){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: larger;
+        
+    }
+    .right-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+</style>
+    </head>
+
+    <body>
+      
+        <div class="container">
+        <div class="one" style="font-weight: bold;" >APPLESEEDS</div>
+
+        <div  class="right-bar">
+        <div>Home </div>
+        <div>about </div>
+        <div>protfolio </div>
+        <div>Contact </div>
+        </div>
+
+
+   </div>
+    </body>
+</html>
